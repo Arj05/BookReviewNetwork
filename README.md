@@ -35,7 +35,7 @@ To install the required dependencies and set up the project, follow these steps:
 
 2. **Set Up the Project**: Set the book URL you want to scrape. For example, to scrape Pride and Prejudice, use the following line in a notebook cell: book_url = 'https://www.goodreads.com/book/show/1885.Pride_and_Prejudice'
 
-##Usage
+## Usage
 Once the dependencies are installed and the project is set up, follow these steps in Jupyter Notebook:
 
 1. **Prepare the Goodreads Book UR**L: Open a notebook cell and set the book_url variable to the Goodreads URL of the book you want to scrape.
@@ -43,13 +43,13 @@ Once the dependencies are installed and the project is set up, follow these step
 
 2. **Run the Scraper**: Execute the notebook cell that contains the scraping logic. The scraper will iterate through multiple pages of reviews (up to 5 pages by default), collect reviewers' names, and display progress for each page.
 
-Graph Building and Visualization: After scraping, the graph will be built, showing the connections between reviewers. You can visualize the network in the notebook or save the graph as an image file.
+3. **Graph Building and Visualization**: After scraping, the graph will be built, showing the connections between reviewers. You can visualize the network in the notebook or save the graph as an image file.
 
-3. **Visualize the Graph**: Use the following function to visualize or save the graph in your Jupyter Notebook:
+4. **Visualize the Graph**: Use the following function to visualize or save the graph in your Jupyter Notebook:
 visualize_graph(G, book_title, save_as='reviewers_graph.png')
 
 
-##Technologies Used
+## Technologies Used
 -Python: Core programming language used for scraping and graph building.
 -Selenium: For web scraping Goodreads pages.
 -BeautifulSoup4: To parse HTML and extract relevant data (reviewers).

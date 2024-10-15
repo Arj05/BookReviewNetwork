@@ -50,8 +50,8 @@ visualize_graph(G, book_title, save_as='reviewers_graph.png')
 
 
 ## Technologies Used
--Python: Core programming language used for scraping and graph building.
--Selenium: For web scraping Goodreads pages.
--BeautifulSoup4: To parse HTML and extract relevant data (reviewers).
--NetworkX: For building and manipulating the graph of reviewers.
--Matplotlib: For visualizing the reviewer network graph.
+- Python: Core programming language used for scraping and graph building.
+- Selenium: For web scraping Goodreads pages.
+- BeautifulSoup4: To parse HTML and extract relevant data (reviewers).
+- NetworkX: For building and manipulating the graph of reviewers.
+- Matplotlib: For visualizing the reviewer network graph.

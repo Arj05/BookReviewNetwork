@@ -47,13 +47,11 @@ Graph Building and Visualization: After scraping, the graph will be built, showi
 
 3. **Visualize the Graph**: Use the following function to visualize or save the graph in your Jupyter Notebook:
 visualize_graph(G, book_title, save_as='reviewers_graph.png')
-Visualization Example
-Once the scraper and graph construction are complete, the graph will be displayed in the notebook. After running the script, the resulting graph will look something like this:
-Each node represents a reviewer, and edges represent connections between reviewers who commented on the same book. The visual layout helps identify clusters of interactions and key contributors to the reviewer community.
+
 
 ##Technologies Used
-Python: Core programming language used for scraping and graph building.
-Selenium: For web scraping Goodreads pages.
-BeautifulSoup4: To parse HTML and extract relevant data (reviewers).
-NetworkX: For building and manipulating the graph of reviewers.
-Matplotlib: For visualizing the reviewer network graph.
+-Python: Core programming language used for scraping and graph building.
+-Selenium: For web scraping Goodreads pages.
+-BeautifulSoup4: To parse HTML and extract relevant data (reviewers).
+-NetworkX: For building and manipulating the graph of reviewers.
+-Matplotlib: For visualizing the reviewer network graph.

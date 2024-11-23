@@ -10,8 +10,7 @@ This project scrapes reviewers from Goodreads who have commented on the same boo
 - [Usage](#usage)
 - [Visualization Example](#visualization-example)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
